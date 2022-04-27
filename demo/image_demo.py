@@ -11,7 +11,6 @@ def parse_args():
     parser.add_argument('img', help='Image file')
     parser.add_argument('config', help='Config file')
     parser.add_argument('checkpoint', help='Checkpoint file')
-    parser.add_argument('--out-file', default=None, help='Path to output file')
     parser.add_argument(
         '--device', default='cuda:0', help='Device used for inference')
     parser.add_argument(
@@ -40,8 +39,7 @@ def main(args):
         args.img,
         result,
         palette=args.palette,
-        score_thr=args.score_thr,
-        out_file=args.out_file)
+        score_thr=args.score_thr)
 
 
 async def async_main(args):
@@ -56,8 +54,7 @@ async def async_main(args):
         args.img,
         result[0],
         palette=args.palette,
-        score_thr=args.score_thr,
-        out_file=args.out_file)
+        score_thr=args.score_thr)
 
 
 if __name__ == '__main__':

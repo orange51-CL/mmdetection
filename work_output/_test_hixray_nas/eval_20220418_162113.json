@@ -1,0 +1,12 @@
+{
+  "config": "configs/hixray_nas/hixray_fcos_resnet50.py",
+  "metric": {
+    "bbox_mAP": 0.104,
+    "bbox_mAP_50": 0.21,
+    "bbox_mAP_75": 0.092,
+    "bbox_mAP_s": 0.0,
+    "bbox_mAP_m": 0.017,
+    "bbox_mAP_l": 0.106,
+    "bbox_mAP_copypaste": "0.104 0.210 0.092 0.000 0.017 0.106"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "config": "configs/hixray_nas/hixray_nas.py",
+  "metric": {
+    "bbox_mAP": 0.746,
+    "bbox_mAP_50": -1.0,
+    "bbox_mAP_75": -1.0,
+    "bbox_mAP_s": 0.0,
+    "bbox_mAP_m": 0.4,
+    "bbox_mAP_l": 0.753,
+    "bbox_mAP_copypaste": "0.746 -1.000 -1.000 0.000 0.400 0.753"
+  }
+}
